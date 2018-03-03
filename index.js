@@ -12,9 +12,16 @@ if( age > 40 ){
 	console.log("you're old");
 } else {
 	console.log("Dang...I was hoping to be younger than you.");
-} 
 	if (age == 40 ) {
 	console.log("Soon you will be old as well.");
 	} else {
 	console.log("Blah blah");
 	}
+}
+
+var youngerThanMe =  age - 1;
+
+while(youngerThanMe > 0){
+	console.log("Someone age " + ( age - youngerThanMe ) + " is  " + youngerThanMe  +" younger than me." ); 
+	youngerThanMe--;
+}
